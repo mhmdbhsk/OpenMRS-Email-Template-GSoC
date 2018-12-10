@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Template Email OpenMRS Google Code of Summer</title>
+    <title>Template Email OpenMRS Google Summer of Code</title>
 
     <!-- Azra Muhammad Bhaskarogra -->
     <!-- azra.ska -->
-    <!-- Google Code of Summer -->
+    <!-- Google Summer of Code -->
     <!-- OpenMRS Task -->
 
     <!-- uigradients.com -->
     <!-- Google Product Sans Font -->
+    <!-- fontawesome.com -->
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <style>
         @font-face {
@@ -26,7 +26,11 @@
         }
         body {
 	        font-family: Product Sans;
+            background-color: #f5f7f8;
 	    }      
+        .container {
+		    border: 1px solid #e5e5e5;
+	    }
         .bg-gradient1 {
             background: #f12711;  /* fallback for old browsers */
             background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
@@ -38,35 +42,53 @@
             background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
             background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
         }
+        .padding-upper {
+            padding: 35px 20px 35px 20px;
+        }
         .padding-header {
-            padding: 15px 20px 15px 20px;
+            padding: 40px 40px 30px 40px;
         }
         .padding-content {
-            padding: 40px 40px 40px 40px;
+            padding: 30px 40px 30px 40px;
         }
         .padding-footer {
             padding: 50px 35px 5px 35px;
         }
-        .material-icons.md-48 { 
-            font-size: 100px; 
+        .size-48 { 
+            font-size: 48px; 
         }
+        .footer-text {
+            font-size: 14px; 
+            padding-left: 0;
+            padding-bottom: 15px;
+        }
+        a{
+	    color: #ffffff;
+	    background-color: transparent;
+	    text-decoration: none;
+	}
     </style>
 </head>
 <body>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+    <table class="container" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+        <tr>
+            <td class="padding-upper">
+                <center><a href="https://summerofcode.withgoogle.com/"><img src="https://raw.githubusercontent.com/muhammadbhaska/OpenMRS-Email-Template-GSoC/master/header.png" alt="OpenMRS" width="250px"></a></center>
+            </td>
+        </tr>
         <tr>
             <td class="bg-gradient1 padding-header" >
-                <center><img src="https://raw.githubusercontent.com/muhammadbhaska/OpenMRS-Email-Template-GSoC/master/header.png" alt="Thanks For Participation" width="500px" style="display: block;" class="padding-header"/></center>
+                <center><font color=white>
+                    <i class="fas fa-check-circle size-48"></i></i>
+                    <h1>Thank You for Completing The Program</h1>
+                </font></center>
             </td>
         </tr>
         <tr>
             <td bg color="#ffffff" class="padding-content">
                 <center>
-                    <i class="material-icons md-48">done_outline</i>
-
-                    <h1>Thank You for Completing The Program</h1>
                     <p>Thank you for your valuable contributions during the competition season.
-                        We hope that this event can give a lot of motivation to you and the other participants of Google Code Code of Summer to be able to compete 
+                        We hope that this event can give a lot of motivation to you and the other participants of Google Summer of Code to be able to compete 
                         with sportsmanship and responsibility and to foster great candidates for developers, 
                         engineers or programmers.</p>
                     <p>Thank You, OpenMRS  </p>
@@ -75,12 +97,24 @@
         </tr>
         <tr>
             <td class="bg-gradient2 padding-footer">
-                <font color="White">
-                    <center><h4>2018 OpenMRS Google Code of Summer</h4></center>
-                </font>
+                <table>
+                    <tr>      
+                        <td class="footer-text" width="400px">
+                            <font color="White">
+                                <p><a href="https://talk.openmrs.org" title="OpenMRS Forums">Forums</a> | <a href="http://github.com/openmrs/" title="OpenMRS Github">Github</a></p>
+                                <p>Copyright © 2004-2018<br>OpenMRS</p>
+                            </font>
+                        </td>
+                        <td style="padding: 0 15px 10px 50px">
+                            <a href="http://openmrs.org/" title="OpenMRS"><img src="https://raw.githubusercontent.com/muhammadbhaska/OpenMRS-Email-Template-GSoC/master/openmrs.png" height="40px" alt="OpenMRS community"></a>
+                        </td>
+                        <td style="padding: 0 0px 10px 0px">
+                            <a href="https://summerofcode.withgoogle.com/" title="Google Summer of Code"><img src="https://raw.githubusercontent.com/muhammadbhaska/OpenMRS-Email-Template-GSoC/master/gsoc.png" height="50px" alt="Google Summer of Code competition"></a>
+                        </td>
+                    </tr>
+                </table>
             </td>
         </tr>
     </table>
-    
 </body>
 </html>
